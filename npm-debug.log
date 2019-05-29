@@ -1,0 +1,99 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'rfid',
+1 verbose cli   '--save' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData rfid
+8 silly fetchNamedPackageData rfid
+9 silly mapToRegistry name rfid
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'rfid',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'rfid',
+12 silly mapToRegistry   name: 'rfid',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/rfid
+14 verbose request uri https://registry.npmjs.org/rfid
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 4:14:29 PM
+17 verbose request id edf0dfd14f7c33e5
+18 verbose etag W/"da2a6a1ef8e85d2bf63325493abafe7a"
+19 verbose lastModified Sun, 27 May 2018 16:03:17 GMT
+20 http request GET https://registry.npmjs.org/rfid
+21 http 304 https://registry.npmjs.org/rfid
+22 verbose headers { date: 'Tue, 28 May 2019 10:44:23 GMT',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'set-cookie': [ '__cfduid=d8f62d2a153a14cc5a9825f1445267f871559040263; expires=Wed, 27-May-20 10:44:23 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+22 verbose headers   'cf-cache-status': 'HIT',
+22 verbose headers   'cache-control': 'max-age=300',
+22 verbose headers   'cf-ray': '4ddfa20e8f84c95c-HYD',
+22 verbose headers   etag: '"da2a6a1ef8e85d2bf63325493abafe7a"',
+22 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+22 verbose headers   'last-modified': 'Sun, 27 May 2018 16:03:17 GMT',
+22 verbose headers   vary: 'accept-encoding, accept',
+22 verbose headers   server: 'cloudflare' }
+23 silly get cb [ 304,
+23 silly get   { date: 'Tue, 28 May 2019 10:44:23 GMT',
+23 silly get     connection: 'keep-alive',
+23 silly get     'set-cookie': [ '__cfduid=d8f62d2a153a14cc5a9825f1445267f871559040263; expires=Wed, 27-May-20 10:44:23 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+23 silly get     'cf-cache-status': 'HIT',
+23 silly get     'cache-control': 'max-age=300',
+23 silly get     'cf-ray': '4ddfa20e8f84c95c-HYD',
+23 silly get     etag: '"da2a6a1ef8e85d2bf63325493abafe7a"',
+23 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+23 silly get     'last-modified': 'Sun, 27 May 2018 16:03:17 GMT',
+23 silly get     vary: 'accept-encoding, accept',
+23 silly get     server: 'cloudflare' } ]
+24 verbose etag https://registry.npmjs.org/rfid from cache
+25 verbose get saving rfid to C:\Users\lokesh oruganti\AppData\Roaming\npm-cache\registry.npmjs.org\rfid\.cache.json
+26 verbose correctMkdir C:\Users\lokesh oruganti\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+27 silly install normalizeTree
+28 silly loadCurrentTree Finishing
+29 silly loadIdealTree Starting
+30 silly install loadIdealTree
+31 silly cloneCurrentTree Starting
+32 silly install cloneCurrentTreeToIdealTree
+33 silly cloneCurrentTree Finishing
+34 silly loadShrinkwrap Starting
+35 silly install loadShrinkwrap
+36 silly loadShrinkwrap Finishing
+37 silly loadAllDepsIntoIdealTree Starting
+38 silly install loadAllDepsIntoIdealTree
+39 silly rollbackFailedOptional Starting
+40 silly rollbackFailedOptional Finishing
+41 silly runTopLevelLifecycles Finishing
+42 silly install printInstalled
+43 verbose stack Error: Unsupported platform for rfid@1.0.0: wanted {"name":"rfid","description":"Easy tag manager for RFID reader","preferGlobal":"false","version":"1.0.0","author":{"name":"Marcello Gesmundo","email":"mgesmundo@yoovant.com","url":"http://www.yoovant.com"},"keywords":["rfid","id-12","gpio","aria","fox","daisy","acmesystsems","arm","linux"],"os":["linux"],"repository":{"type":"git","url":"git+https://github.com/mgesmundo/rfid.git"},"bugs":{"url":"https://github.com/mgesmundo/rfid/issues"},"main":"./index.js","dependencies":{"aria_fox_gpio":">=1.0.2","serialport":">=1.1.0","chic-event":">=0.0.1","object_utils":">=0.1.0"},"analyze":false,"license":"MIT","engines":{"node":">=0.8"},"readmeFilename":"README.md","readme":"# RFID\n\nThis module provide a simple way to read RF TAGs. This module is intended for an [Innovations ID-12 RFID](http://id-innovations.com/httpdocs/EM%20moudule%20SERIES%202007-10-9_wfinal%20v22.pdf) reader connected to an [Acme System](http://www.acmesystems.it) board:\n\n- [Terra board](http://www.acmesystems.it/terra)\n- [Aria board](http://www.acmesystems.it/aria)\n- [Fox G20 board](http://www.acmesystems.it/FOXG20).\n\nVisit [Acme Systems](http://www.acmesystems.it/) and [Innovations](http://id-innovations.com) official sites for more informations about this hardware. You can use this module also to connect the RFID reader to a PC using an USB to serial converter.\n\nTo create documentation you must install [JSDuck](https://github.com/senchalabs/jsduck) and type in your terminal:\n\n    $ ./gen_doc.sh\n\nPlease visit [Yoovant website](http://www.yoovant.com/rfid/) for more informations (schematic, etc.).\n\n## Hardware\n\n - [Acme System](http://www.acmesystems.it) components:\n\n     - Acme Systems [Terra board](http://www.acmesystems.it/terra) (or [Fox G20 board](http://www.acmesystems.it/FOXG20) with [Daisy-1 board](http://www.acmesystems.it/DAISY-1))\n\n - [Innovations](http://id-innovations.com) RFID reader:\n\n     - [ID-12](http://id-innovations.com/httpdocs/EM%20moudule%20SERIES%202007-10-9_wfinal%20v22.pdf) connected to Terra board (or Fox board)\n\n__NOTE__: the term \"Aria\" in this module is used as synonym of \"Terra\" because in effect\nthis module is intend for Terra board (with or without GPRS module). You can also inherit this module to customize it to works with an Aria module.\n\n## Usage\n\nInstall the package as usual:\n\n    debarm:~# npm install rfid\n\nSee full documentation into _doc_ folder and an example into _example_ folder within the [rfid](https://npmjs.org/package/rfid) package.\n","_id":"rfid@1.0.0","dist":{"shasum":"39ce04675d7a49851d6caf72f00f0c401fa41bf7","tarball":"https://registry.npmjs.org/rfid/-/rfid-1.0.0.tgz"},"_from":"rfid","_npmVersion":"1.2.18","_npmUser":{"name":"mgesmundo","email":"mgesmundo@yoovant.com"},"maintainers":[{"name":"mgesmundo","email":"mgesmundo@yoovant.com"}],"directories":{},"_resolved":"https://registry.npmjs.org/rfid/-/rfid-1.0.0.tgz","_shasum":"39ce04675d7a49851d6caf72f00f0c401fa41bf7","_requested":{"raw":"rfid","scope":null,"escapedName":"rfid","name":"rfid","rawSpec":"","spec":"latest","type":"tag"},"_spec":"rfid","_where":"C:\\Users\\lokesh oruganti\\Desktop\\Project\\RFID_Asset_Tracking","_args":[[{"raw":"rfid","scope":null,"escapedName":"rfid","name":"rfid","rawSpec":"","spec":"latest","type":"tag"},"C:\\Users\\lokesh oruganti\\Desktop\\Project\\RFID_Asset_Tracking"]],"homepage":"https://github.com/mgesmundo/rfid#readme"} (current: {"os":"win32","cpu":"x64"})
+43 verbose stack     at checkPlatform (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-install-checks\index.js:45:14)
+43 verbose stack     at thenWarnEngineIssues (C:\Program Files\nodejs\node_modules\npm\lib\install\validate-args.js:41:5)
+43 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\iferr\index.js:13:50
+43 verbose stack     at checkEngine (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-install-checks\index.js:24:10)
+43 verbose stack     at module.exports.isInstallable (C:\Program Files\nodejs\node_modules\npm\lib\install\validate-args.js:38:3)
+43 verbose stack     at Array.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+43 verbose stack     at LOOP (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+43 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:18:7
+43 verbose stack     at checkSelf (C:\Program Files\nodejs\node_modules\npm\lib\install\validate-args.js:46:72)
+43 verbose stack     at Array.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+44 verbose pkgid rfid@1.0.0
+45 verbose cwd C:\Users\lokesh oruganti\Desktop\Project\RFID_Asset_Tracking
+46 error Windows_NT 10.0.17763
+47 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "rfid" "--save"
+48 error node v6.11.3
+49 error npm  v3.10.10
+50 error code EBADPLATFORM
+51 error notsup Unsupported platform for rfid@1.0.0: wanted {"os":"linux","arch":"any"} (current: {"os":"win32","arch":"x64"})
+52 error notsup Valid OS:    linux
+52 error notsup Valid Arch:  any
+52 error notsup Actual OS:   win32
+52 error notsup Actual Arch: x64
+53 verbose exit [ 1, true ]

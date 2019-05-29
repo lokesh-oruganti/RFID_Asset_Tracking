@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "rfid-asset-tracking-c38f6",
+  "private_key_id": "a448072706818ae67a63d0235023506496abd983",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC8xwMbHmV4tg8O\nmywAkiF/BLhONcQhVApL/LPmRgfzGFzOtAgZVYYuGvEd6z2yfLlQ5fA2c3DXVK6a\nsF2JhvMDhZALMuaRIb/uFe8l+pJMDCWT/ay+gwD2XFt6OjjwcSAwqGsRdXcPej75\nAUaEQfQjE56c1n6EQ4U+v0KY5IpVKLJ/obaU5of5CR9qP2VAuFTJ33c2BXB2nF/B\n9EVuomOGzsruAORv+cNoAxu5v0Xsa7DQkknUoJy/OkvqW0IAymRMX5TdcvQn34yQ\nYUtm8ouGFWwOyOxDgZZi0Ei3+rpYg8rm6f+DittgQSTUHVBtXw4FonAUqOjoSFqP\nLNMUoegbAgMBAAECggEAP8oZ7RSA4mDWxq89l7XJdtPf+aGmdEKjNhkeqz3X2tfN\nKJXiNLlXHYZCGsOOdh06O7FvUd8BbunxFFlrShkdTf/YdEhPbBRU+D1WMeWxgNwL\n6K2sLTY0YYtE6BD7g5gecgK/J0ejo0nCNL8vFmr49c9f5gx+9O+h+1mCxgpYCj0g\ndfmXL6R2Ej2W52GD6sGXSYbeflDtpnKBezQde2k2Xn8U4RnyBtsUhXW0iZoi84AX\ni8nppV/f5U2Hle0BmJb1cj6x4JLqdp+gxMKfhVINu3pTDalBCegkYXXBYhODiVmF\navMHzYW/3Uqqx5iN4tPoYto9aRqRt8Rxpd9L7FRtTQKBgQDzk6LIjYo2W04OrOX/\nV55kRWt9sKD4PpyM9Zq7G9V+KeKGz/LhbEVp0CTZaVZGloqbE1l0Fh11a7oUi4bG\n9akqlmA6g+SzzLpl737U9Mjqqtr2oeVj3PILepDlAAQKFYRkCOi3dL6eG351M5tI\nN2ZkMrXIcL9sR5S+40ZnrEqbZwKBgQDGZ92N8iQFAxYOu/3qUIuLRjrhS42ob8M0\nPvEp61TGD+ZZTfp2ZW+/xVSpVRzuvViBCKmXT8Mp2xIQLVRTxH+DcAv8izgtBYmC\nbsp+6JBrICLmNDlupK58M6suhZeunbIwqcK15kMrQ3igbDOF7RySXyOPtov/hEeZ\nWxjRPj9RLQKBgGpa5JE9fEQPyh2OUT8VOwv9Y9oV7bN3Y1QJSe65UJcuIsNKuXrE\nk+qIAA8Od6WKxirAYCbYITTMPQwLgGYPjjYSQyJJxOrdUeaAlJjX6YLN554ZQtg/\n+VAZzHqxbxIYIx6q5TJ1v2W6C5WRWxRFXGgT3FwRHwRgnQpcorlR+aGxAoGBAKzJ\nue6ryWjABk6ws/KDUPPrJs4ckXL2Wmc+xaJ/O2X+ZNqziYPg1VCK1y9dW4QjTFeb\npq6LHWlvSyzhfUYyo+ZhB19aE4NKBjacrCeX/GX/J8WaB8ZvDzJFgThTygSde5jb\nzyHBNhAQg5YahUiGdlKXHo5DKWtO1VgeON/JuTTFAoGARCmHBe8exr0ejg7PXC04\nVOx5Y6OGK/SRwvLLilz8TCPhfdZsYiKnZgg48dua6f8y0Exx1Q6VKylp9vZ2quyG\nmIDX6dpyQxBbLOTPlHHSzFCo7X9oNajOvibEATIS3HkTFzW6w+sAkOEQH7rL9yta\nJsprlY7bFWHdXVCqSKML1ZI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-1qb6c@rfid-asset-tracking-c38f6.iam.gserviceaccount.com",
+  "client_id": "114219379705624609386",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-1qb6c%40rfid-asset-tracking-c38f6.iam.gserviceaccount.com"
+}

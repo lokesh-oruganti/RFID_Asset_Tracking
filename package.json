@@ -1,0 +1,33 @@
+{
+  "name": "sensewire_iot_rfid",
+  "version": "1.0.0",
+  "description": "asset tracking",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "iot",
+    "mqtt"
+  ],
+  "author": "lokesh",
+  "license": "MIT",
+  "dependencies": {
+    "azure-iot-device": "^1.9.9",
+    "azure-iot-device-mqtt": "^1.9.9",
+    "body-parser": "^1.19.0",
+    "db-migrate": "^0.11.5",
+    "db-migrate-mysql": "^1.1.10",
+    "errc": "0.0.4",
+    "express": "^4.16.4",
+    "firebase-admin": "^8.0.0",
+    "mongodb": "^3.2.4",
+    "mosca": "^2.8.3",
+    "mqtt": "^2.18.8",
+    "mysql": "^2.17.1",
+    "serialport": "^7.1.5",
+    "sqlite3": "^4.0.8",
+    "uuid": "^3.3.2",
+    "winston": "^3.2.1"
+  }
+}
