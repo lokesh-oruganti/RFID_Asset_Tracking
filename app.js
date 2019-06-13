@@ -3,7 +3,7 @@
 // var serviceAccount = require("./rfid_asset.json")
 // admin.initializeApp({
 //     credential: admin.credential.cert(serviceAccount),
-//     databaseURL: "https://rfid-asset-tracking-c38f6.firebaseio.com"
+//     databaseURL: "your database url here"
 // });
 // var SerialPort		= require('serialport');
 // var readerStatus	= {status:404,message:'not connected'};
